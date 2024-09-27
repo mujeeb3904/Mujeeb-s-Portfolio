@@ -1,52 +1,77 @@
 <!DOCTYPE HTML>
-
 <html>
-	<head>
-		<title>Mujeeb Data Science Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Mujeeb Data Science Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* Media query for mobile devices */
+        @media (max-width: 768px) {
+            .about-me-container {
+                flex-direction: column;
+                align-items: center;
+            }
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-				<!-- Intro -->
-				
-				<div id="intro" style="text-align: center; padding: 20px;">
-					<h1>Mujeeb Ur Rehman<br />
-					Data Science</h1>
-				
-					<!-- About Me Section with Image -->
-					<div style="display: flex; align-items: flex-start; justify-content: center; margin-top: 20px;">
-						<!-- About Me Text -->
-						<div style="flex: 1; padding: 10px; max-width: 1000px; text-align: left;">
-							<h2 style="margin-top: 10;text-align: center;">About Me</h2>
-							<p style="font-size: 16px; line-height: 1.5;">
-								I am a Data Science graduate with hands-on experience in data analysis, machine learning, and data visualization. 
-								Throughout my academic journey,  I have undertaken numerous projects in Data Science and Machine Learning, refining 
-								my ability to extract insights from complex datasets and develop predictive models that drive impactful business outcomes. 
-								My passion lies in transforming data into actionable strategies that enable organizations to make informed, data-driven decisions.
-							</p>
-							<p style="font-size: 16px; line-height: 1.6;">
-								With a solid foundation in statistical analysis, programming, and data visualization tools, I am eager to apply my expertise to real-world 
-								challenges. I am a fast learner, highly adaptable, and dedicated to staying at the cutting edge of the ever-evolving field of data science.
-							</p>
-						</div>
-						
-						<!-- Image on the Right Side -->
-						<div style="flex: 1; padding: 20px;">
-							<img src="images/mujeeb.jpeg" alt="Mujeeb Ur Rehman" style="width: auto; height: 300px; border-radius: 10px; margin-top: 30px; max-height: 300px;" />
-						</div>
-					</div>
-					<ul class="actions" style="margin-top: 10px;">
-						<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-					</ul>
-				</div>
-				
-				
-		
+            .about-me-container div {
+                width: 100%;
+                max-width: none;
+				margin-top:  10px;
+            }
+
+            .about-me-text {
+				padding-left: 20px; /* Add left padding */
+    			margin-bottom: 0; 
+               
+            }
+
+            .about-me-image {
+                order: 2;
+                margin-top: 10px;
+            }
+        }
+    </style>
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro -->
+        <div id="intro" style="text-align: center; padding: 20px;">
+            <h1>Mujeeb Ur Rehman<br />
+            Data Science</h1>
+        
+            <!-- About Me Section with Image -->
+            <div class="about-me-container" style="display: flex; align-items: flex-start; justify-content: center; margin-top: 20px;">
+                <!-- About Me Text -->
+                <div class="about-me-text" style="flex: 1; padding: 10px; max-width: 1000px;">
+                    <h2 style="text-align: center;">About Me</h2>
+                    <p style="font-size: 16px; line-height: 1.5;">
+                        I am a Data Science graduate with hands-on experience in data analysis, machine learning, and data visualization. 
+                        Throughout my academic journey, I have undertaken numerous projects in Data Science and Machine Learning, refining 
+                        my ability to extract insights from complex datasets and develop predictive models that drive impactful business outcomes. 
+                        My passion lies in transforming data into actionable strategies that enable organizations to make informed, data-driven decisions.
+						I am a fast learner, highly adaptable, and dedicated to staying at the cutting edge of the ever-evolving field of data science.
+                    </p>
+                    
+                </div>
+                
+                <!-- Image on the Right Side -->
+                <div class="about-me-image" style="flex: 1; padding: 20px;">
+                    <img src="images/mujeeb.jpeg" alt="Mujeeb Ur Rehman" style="width: auto; height: 300px; border-radius: 10px; margin-top: 30px; max-height: 300px;" />
+                </div>
+            </div>
+            <ul class="actions" style="margin-top: 10px;">
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+
+        <!-- Other sections of the portfolio remain the same -->
+        <!-- ... -->
+    </div>
+
 					<!-- <ul class="actions" style="margin-top: 20px;">
 						<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 					</ul> -->
